@@ -16,6 +16,10 @@
     padding: 1rem;
 }
 
+:global .SillyCIAPart1 h1 {
+    text-align: center;
+}
+
 @media (max-width: 620px) {
     :global .SillyCIAPart1 img {
         width: 80%;
