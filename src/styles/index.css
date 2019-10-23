@@ -16,7 +16,9 @@
     padding: 1rem;
 }
 
-:global .SillyCIAPart1 h1 {
+:global .SillyCIAPart1 h1,
+:global .SillyCIAPart1 h2
+{
     text-align: center;
 }
 
