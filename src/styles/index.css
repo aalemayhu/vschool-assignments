@@ -1,4 +1,32 @@
 :global .SillyCIAPart1 {
     background: beige;
     padding: 16px;
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+:global .SillyCIAPart1 img {
+    object-fit: contain;
+}
+
+@media (max-width: 620px) {
+    :global .SillyCIAPart1 img {
+        width: 80%;
+        align-self: center;
+    }
+    
+    :global .SillyCIAPart1 h1 {
+        font-size: 1.4rem;
+    }
+
+    :global .SillyCIAPart1 h2 {
+        font-size: 1.2rem;
+    }
+    
+    :global .SillyCIAPart1 p {
+        padding: 1rem;
+    }
 }
