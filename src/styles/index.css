@@ -11,6 +11,10 @@
 :global .SillyCIAPart1 img {
     object-fit: contain;
 }
+    
+:global .SillyCIAPart1 p {
+    padding: 1rem;
+}
 
 @media (max-width: 620px) {
     :global .SillyCIAPart1 img {
@@ -24,9 +28,5 @@
 
     :global .SillyCIAPart1 h2 {
         font-size: 1.2rem;
-    }
-    
-    :global .SillyCIAPart1 p {
-        padding: 1rem;
     }
 }
