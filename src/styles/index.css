@@ -8,6 +8,15 @@
     flex-direction: column;
 }
 
+:global .App {
+    display: flex;
+    flex-direction: column;
+}
+
+:global .github-link {
+    align-self: center;
+}
+
 :global .SillyCIAPart1 img {
     object-fit: contain;
 }
